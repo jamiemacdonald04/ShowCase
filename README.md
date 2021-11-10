@@ -1,5 +1,5 @@
 # ShowCase
-This will ge where I put the stuff that I have learnt along the way, instead of leaving it to fester on my pc.  
+This will be where I put the technical stuff that I have learnt along the way, instead of leaving it to fester on my pc/mac.  
 
 # com.github.grpc
 
