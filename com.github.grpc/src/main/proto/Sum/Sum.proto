@@ -1,0 +1,54 @@
+
+syntax = "proto3";
+
+package Sum;
+
+option java_package = "com.proto.sum";
+option java_multiple_files = true;
+
+message SumVars {
+  repeated int32 multiplyValues = 1;
+  optional string message = 2;
+}
+
+message SingleSumVars {
+  int32 theNumber = 1;
+  optional string message = 2;
+}
+
+message SingleSumRequest{
+  SingleSumVars singleSumVars = 1;
+}
+
+message SumRequest{
+    SumVars sumvars = 1;
+}
+
+message SumResponse {
+  string result = 1;
+}
+message HelloReq {
+  string subject = 1;
+}
+
+message HelloResp {
+  string text = 1;
+}
+service SumService {
+
+  // request response
+  rpc CalculateSumOf(SumRequest) returns (SumResponse) {};
+
+  // im here.
+  rpc Hello(HelloReq) returns (HelloResp);
+
+  //server polling client
+  rpc CalculateSumOfStream(SumRequest) returns (stream SumResponse) {};
+
+  //client polling service
+  rpc calculateOnTheFly(stream SingleSumRequest) returns (SumResponse) {};
+
+  //bio directional polling
+  rpc prescriptionNumber(stream SingleSumRequest) returns (stream SumResponse) {};
+
+}
