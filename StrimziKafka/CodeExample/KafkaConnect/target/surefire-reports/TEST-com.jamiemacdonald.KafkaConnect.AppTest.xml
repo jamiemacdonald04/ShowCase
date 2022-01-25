@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.jamiemacdonald.KafkaConnect.AppTest" time="0.004" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jamie.macdonald/github/ShowCase/ShowCase/StrimziKafka/CodeExample/KafkaConnect/target/test-classes:/Users/jamie.macdonald/github/ShowCase/ShowCase/StrimziKafka/CodeExample/KafkaConnect/target/classes:/Users/jamie.macdonald/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/jamie.macdonald/.m2/repository/org/apache/kafka/kafka-clients/3.0.0/kafka-clients-3.0.0.jar:/Users/jamie.macdonald/.m2/repository/com/github/luben/zstd-jni/1.5.0-2/zstd-jni-1.5.0-2.jar:/Users/jamie.macdonald/.m2/repository/org/lz4/lz4-java/1.7.1/lz4-java-1.7.1.jar:/Users/jamie.macdonald/.m2/repository/org/xerial/snappy/snappy-java/1.1.8.1/snappy-java-1.1.8.1.jar:/Users/jamie.macdonald/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/jamie.macdonald/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/jamie.macdonald/github/ShowCase/ShowCase/StrimziKafka/CodeExample/KafkaConnect/target/surefire/surefirebooter10319804234254263386.jar /Users/jamie.macdonald/github/ShowCase/ShowCase/StrimziKafka/CodeExample/KafkaConnect/target/surefire 2022-01-24T20-29-28_431-jvmRun1 surefire16859595760839794313tmp surefire_06891073508714074671tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/jamie.macdonald/github/ShowCase/ShowCase/StrimziKafka/CodeExample/KafkaConnect/target/test-classes:/Users/jamie.macdonald/github/ShowCase/ShowCase/StrimziKafka/CodeExample/KafkaConnect/target/classes:/Users/jamie.macdonald/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/jamie.macdonald/.m2/repository/org/apache/kafka/kafka-clients/3.0.0/kafka-clients-3.0.0.jar:/Users/jamie.macdonald/.m2/repository/com/github/luben/zstd-jni/1.5.0-2/zstd-jni-1.5.0-2.jar:/Users/jamie.macdonald/.m2/repository/org/lz4/lz4-java/1.7.1/lz4-java-1.7.1.jar:/Users/jamie.macdonald/.m2/repository/org/xerial/snappy/snappy-java/1.1.8.1/snappy-java-1.1.8.1.jar:/Users/jamie.macdonald/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/jamie.macdonald/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jamie.macdonald"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/jamie.macdonald/github/ShowCase/ShowCase/StrimziKafka/CodeExample/KafkaConnect"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/jamie.macdonald/github/ShowCase/ShowCase/StrimziKafka/CodeExample/KafkaConnect/target/surefire/surefirebooter10319804234254263386.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="jamie.macdonald"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/jamie.macdonald/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/wd/9kbfk82d0fx2bqqsv0xxjh3r0000gq/T/"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="/Users/jamie.macdonald/github/ShowCase/ShowCase/StrimziKafka/CodeExample/KafkaConnect"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/jamie.macdonald/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="testApp" classname="com.jamiemacdonald.KafkaConnect.AppTest" time="0.001"/>
+</testsuite>
