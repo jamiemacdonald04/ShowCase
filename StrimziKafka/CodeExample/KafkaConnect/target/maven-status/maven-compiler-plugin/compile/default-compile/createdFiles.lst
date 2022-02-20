@@ -1,5 +1,6 @@
 com/jamiemacdonald/KafkaConnect/Kafka.class
 com/jamiemacdonald/KafkaConnect/Topic.class
+com/jamiemacdonald/KafkaConnect/interfaces/IConsume.class
 com/jamiemacdonald/KafkaConnect/interfaces/IProducer.class
 com/jamiemacdonald/KafkaConnect/interfaces/ITopic.class
 com/jamiemacdonald/KafkaConnect/Producer.class

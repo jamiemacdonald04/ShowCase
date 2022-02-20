@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.jamiemacdonald.KafkaConnect.AppTest" time="0.004" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.jamiemacdonald.KafkaConnect.AppTest" time="0.003" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/jamie.macdonald/github/ShowCase/ShowCase/StrimziKafka/CodeExample/KafkaConnect/target/surefire/surefirebooter10319804234254263386.jar /Users/jamie.macdonald/github/ShowCase/ShowCase/StrimziKafka/CodeExample/KafkaConnect/target/surefire 2022-01-24T20-29-28_431-jvmRun1 surefire16859595760839794313tmp surefire_06891073508714074671tmp"/>
+    <property name="sun.java.command" value="/Users/jamie.macdonald/github/ShowCase/ShowCase/StrimziKafka/CodeExample/KafkaConnect/target/surefire/surefirebooter11757165391804194792.jar /Users/jamie.macdonald/github/ShowCase/ShowCase/StrimziKafka/CodeExample/KafkaConnect/target/surefire 2022-01-31T20-32-31_376-jvmRun1 surefire4657813271136599370tmp surefire_0873126036821448023tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/jamie.macdonald/github/ShowCase/ShowCase/StrimziKafka/CodeExample/KafkaConnect/target/test-classes:/Users/jamie.macdonald/github/ShowCase/ShowCase/StrimziKafka/CodeExample/KafkaConnect/target/classes:/Users/jamie.macdonald/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/jamie.macdonald/.m2/repository/org/apache/kafka/kafka-clients/3.0.0/kafka-clients-3.0.0.jar:/Users/jamie.macdonald/.m2/repository/com/github/luben/zstd-jni/1.5.0-2/zstd-jni-1.5.0-2.jar:/Users/jamie.macdonald/.m2/repository/org/lz4/lz4-java/1.7.1/lz4-java-1.7.1.jar:/Users/jamie.macdonald/.m2/repository/org/xerial/snappy/snappy-java/1.1.8.1/snappy-java-1.1.8.1.jar:/Users/jamie.macdonald/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/jamie.macdonald/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/jamie.macdonald/github/ShowCase/ShowCase/StrimziKafka/CodeExample/KafkaConnect/target/surefire/surefirebooter10319804234254263386.jar"/>
+    <property name="surefire.real.class.path" value="/Users/jamie.macdonald/github/ShowCase/ShowCase/StrimziKafka/CodeExample/KafkaConnect/target/surefire/surefirebooter11757165391804194792.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.2+7-27"/>
     <property name="user.name" value="jamie.macdonald"/>
@@ -50,5 +50,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="testApp" classname="com.jamiemacdonald.KafkaConnect.AppTest" time="0.001"/>
+  <testcase name="testApp" classname="com.jamiemacdonald.KafkaConnect.AppTest" time="0"/>
 </testsuite>

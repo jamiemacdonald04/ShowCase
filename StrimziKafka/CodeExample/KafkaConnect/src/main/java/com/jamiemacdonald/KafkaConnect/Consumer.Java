@@ -20,7 +20,7 @@ public class Consume implements IConsume
     public void ConsumeRecords(String ktopic, String kvalue) throws InterruptedException, ExecutionException
     {
         Properties props = new Properties();
-        props.put("bootstrap.servers", "192.168.64.17:31901");
+        props.put("bootstrap.servers", "192.168.64.19:31876");
         props.put("group.id", "test");
         props.put("enable.auto.commit", "false");
         props.put("auto.commit.interval.ms", "1000");

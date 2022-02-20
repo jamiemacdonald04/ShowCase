@@ -1,0 +1,15 @@
+.mainclock{
+  background: white;
+  margin:1em;
+  padding:1em;
+  border:solid thick blue;
+  width:70%;
+}
+.sidebyside{
+  display: inline-block;
+}
+
+.alignleft
+{
+  float:right;
+}

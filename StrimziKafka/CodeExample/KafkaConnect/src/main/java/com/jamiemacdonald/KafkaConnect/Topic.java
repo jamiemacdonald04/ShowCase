@@ -19,7 +19,7 @@ public class Topic implements ITopic {
     {
         Properties properties = new Properties();
         properties.put(
-          AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, "192.168.64.17:31901"
+          AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, "192.168.64.19:31876"
         );
         
         try (Admin admin = Admin.create(properties)) {
@@ -43,7 +43,7 @@ public class Topic implements ITopic {
         KafkaFuture<Set<String>> future;
         Properties properties = new Properties();
         properties.put(
-          AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, "192.168.64.17:31901"
+          AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, "192.168.64.19:31876"
         );
         
         try (Admin admin = Admin.create(properties)) {            

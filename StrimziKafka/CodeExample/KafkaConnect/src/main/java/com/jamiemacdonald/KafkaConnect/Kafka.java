@@ -26,6 +26,10 @@ public class Kafka
                 }
                
             }
+            if(!args[0].isEmpty() && args[0].toLowerCase().equals("AddTopics")){
+                ITopic topics= new Topic();
+                topics.NewTopic(args[1]);
+            }
 
     }
 }
