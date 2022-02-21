@@ -1,10 +1,25 @@
-# project
-This project was set up in this way to take advantage of docker and also to do some experiments on the inner workings of angular.  Start with:
+# Project
+This project was set up using Docker and docker compose.  This allows angular to be run/developed on a docker machine rather than installing ng on my mac.  This is pretty clever.
 
 docker-compose up 
 or
 docker compose up 
 
+# Tests
+To run tests I needed to include docker in the docker file and the env var for CHROME_BIN.  I then needed add the following to the karma.conf.js. 
+```
+    customLaunchers: {
+      ChromeHeadlessNoSandbox: {
+        base: 'ChromeHeadless',
+        flags: ['--no-sandbox']
+      }
+    },
+```
+
+The unit test i have defined are in the clock component.
+
+# Component
+The clock component is the component added by my self and has a clock with different times.  Each time-zone has its own style sheet. Each time is tested and outputed on the page.  
 
 # DevEnvTest
 
