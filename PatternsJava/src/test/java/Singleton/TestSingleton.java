@@ -1,17 +1,17 @@
 package Singleton;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class TestSingleton {
     @Test
-    void justCreatedOnce() {
+    public void justCreatedOnce() {
         String boardName = "The Duck And Horse";
         String storedBoardName = this.createBoard(boardName);
         assertEquals(boardName, storedBoardName);
     }
 
     @Test
-    void justCreatedThreeTimes() {
+    public void justCreatedThreeTimes() {
         String firstBoardName = "The Duck And Horse";
         String storedBoardName = this.createBoard(firstBoardName);
         String secondBoardName = "The Dug And Pony";
@@ -22,8 +22,6 @@ public class TestSingleton {
     }
 
     private String createBoard(String NameBoardThis){
-        var boardName = NameBoardThis;
-        var board = ChessboardSingleton.GetBoard(boardName);
-        return board.Name;
+        return ChessboardSingleton.GetBoard(NameBoardThis).Name;
     }
 }

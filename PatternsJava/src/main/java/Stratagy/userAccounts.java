@@ -16,8 +16,7 @@ public class userAccounts {
         IDatabaseCredentials sqlServer = new SqlServer();
         ResultSet mySqlUsers = getUserAccounts(mySql);
         ResultSet SqlServerUsers = getUserAccounts(sqlServer);
-
-        //process this recordsets and return as one.
+        //process this record sets and return as one table.
     }
 
     private ResultSet getUserAccounts(IDatabaseCredentials database) throws SQLException, ClassNotFoundException, InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchMethodException {
